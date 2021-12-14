@@ -1,5 +1,6 @@
 ---
 title: Note Templates
+draft: true
 tags:
   - Templates
 ---

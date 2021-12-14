@@ -1,6 +1,7 @@
 ---
 title: Tags and Tag Explorer
-tags: 
+draft: true
+tags:
   - my-tag1
   - my-tag2
 ---

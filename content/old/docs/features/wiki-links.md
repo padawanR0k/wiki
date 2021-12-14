@@ -1,5 +1,6 @@
 ---
 title: Wiki Links
+draft: true
 tags:
   - Link
 ---

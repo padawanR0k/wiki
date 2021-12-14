@@ -1,5 +1,6 @@
 ---
 title: Daily Notes
+draft: true
 tags:
   - Notes
   - Daily

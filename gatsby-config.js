@@ -27,7 +27,7 @@ module.exports = {
       resolve: "gatsby-theme-primer-wiki",
       options: {
         nav: [
-      
+
           {
             title: "Github",
             url: "https://github.com/theowenyoung/gatsby-starter-primer-wiki/",

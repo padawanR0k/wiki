@@ -1,5 +1,6 @@
 ---
 title: Note Properties
+draft: true
 type: feature
 keywords: hello world
 tags:

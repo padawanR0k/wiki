@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "91516c8afbc507cc",
+    "type": "split",
+    "children": [
+      {
+        "id": "737e325c7d8b2043",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "inbox.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "abd609d58bc00876",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ce34562cf931497",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d994871fcb8c69a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d6d18a0afc8c4046",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2274c16f5bfdc116",
+    "type": "split",
+    "children": [
+      {
+        "id": "21bdf47c76870fca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "90e16f8f5da7f3c8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "inbox.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "737e325c7d8b2043",
+  "lastOpenFiles": [
+    "inbox.md",
+    "old/docs/features/link-reference-definitions.md",
+    "old/docs/features/graph-visualization.md",
+    "old/docs/features/daily-notes.md",
+    "getting-started.md",
+    "readme.md",
+    "todo.md",
+    "posts/javascript/test.md"
+  ]
+}

@@ -1,5 +1,6 @@
 ---
 title: Use Keyboard Shortcuts for Editing
+draft: true
 tags:
   - Shortcut
 ---
