@@ -1,13 +1,13 @@
 const path = require("path");
 const pathPrefix = "/";
 const siteMetadata = {
-  title: "Gatsby Starter for Gatsby Theme Primer Wiki",
-  shortName: "Wiki",
+  title: "Wiki By r0k",
+  shortName: "r0k Wiki",
   description:
-    "A starter that use gatsby-theme-primer-wiki",
-  twitterName: "theowenyoung",
-  imageUrl: "/graph-visualisation.jpg",
-  siteUrl: "https://demo-gatsby-starter-primer-wiki.owenyoung.com",
+    "r0k의 개인위키",
+  imageUrl: "/logo.png",
+  siteUrl: "https://padawanr0k.github.io/wiki",
+  fbAppId: "",
 };
 module.exports = {
   siteMetadata,

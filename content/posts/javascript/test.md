@@ -1,6 +1,7 @@
 ---
 tags:
   - javascript
+draft: true
 ---
 
 # 테스트

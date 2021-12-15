@@ -6,7 +6,7 @@ tags:
 
 # 📝 r0k Wiki
 
-**이것 저것을 기록하는 r0k이 개인 위키입니다.**
+**필요할 때 꺼내쓰는 지식저장소**
 
 ## Inspired by
 - [Vimwiki+Jekyll+Github.io로 나만의 위키를 만들자](https://johngrib.github.io/wiki/my-wiki/)
