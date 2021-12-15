@@ -13,7 +13,7 @@ import TagsBlock from "gatsby-theme-primer-wiki/src/components/tags-block";
 import { getSidebarItems } from "gatsby-theme-primer-wiki/src/utils/sidebar-items";
 import useThemeConfig from "gatsby-theme-primer-wiki/src/use-theme-config";
 import TagPosts from "gatsby-theme-primer-wiki/src/components/tag-posts";
-// import { Giscus } from "@giscus/react";
+import { Giscus } from "@giscus/react";
 
 function TagsList({ type = "normal", title, url, items, depth = 0 }) {
   items = items || [];
@@ -220,17 +220,17 @@ const Post = ({ data, pageContext, location }) => {
             <TagsBlock tags={tags} nodes={tagsOutbound.nodes} />
           )}
           <PageFooter editUrl={editUrl} lastUpdated={lastUpdated} />
-          {/* <Giscus
-            repo="padosum/blog"
-            repoId="MDEwOlJlcG9zaXRvcnkyMzYzMzcwMzM="
-            category="General"
-            categoryId="DIC_kwDODhY3ic4B_Fb9"
-            mapping="specific"
+          <Giscus
+            repo="padawanr0k/wiki"
+            repoId="R_kgDOGiG0_g="
+            category="Announcements"
+            categoryId="DIC_kwDOGiG0_s4CATDO"
+            mapping="pathname"
             term={title}
             reactionsEnabled="1"
-            emitMetadata="0"
+            emitMetadata="1"
             theme={resolvedColorMode === "day" ? "light" : "dark_high_contrast"}
-          /> */}
+          />
         </Box>
       </Box>
     </Layout>
