@@ -1,12 +1,12 @@
 const path = require("path");
-const pathPrefix = "/";
+const pathPrefix = "/wiki";
 const siteMetadata = {
   title: "Wiki By r0k",
   shortName: "r0k Wiki",
   description:
     "r0k의 개인위키",
   imageUrl: "/logo.png",
-  siteUrl: "https://padawanr0k.github.io/wiki",
+  siteUrl: "https://padawanr0k.github.io",
   fbAppId: "",
 };
 module.exports = {
@@ -30,14 +30,10 @@ module.exports = {
 
           {
             title: "Github",
-            url: "https://github.com/theowenyoung/gatsby-starter-primer-wiki/",
-          },
-          {
-            title: "Twitter",
-            url: "https://twitter.com/theowenyoung",
+            url: "https://github.com/padawanR0k",
           },
         ],
-        editUrl: "https://github.com/theowenyoung/gatsby-starter-primer-wiki/tree/main/",
+        editUrl: "https://github.com/padawanR0k/wiki/tree/master",
       },
     },
     {
