@@ -15,7 +15,7 @@ tags:
 |다른 폴더 목록보기|`cmd` `R`|
 |특정 라인만 커밋 스테이지에 올리기| 1. stage하려는 범위를 드래그한다. <br/>2. `command + k`  + `shift + command + s`|
 |키보드 입력 내용 노출하기|1. 콘솔연 후 `>screen` <br/>2. 개발자 스크린캐스크 모드 토글 선택|
-|사용하지 되지 import 지우기|`option` `shift` `O`|
+|사용하지 되지않는 import 지우기|`option` `shift` `O`|
 
 ## 터미널 (쉘)
 
