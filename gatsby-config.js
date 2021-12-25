@@ -33,7 +33,7 @@ module.exports = {
             url: "https://github.com/padawanR0k",
           },
         ],
-        editUrl: "https://github.com/padawanR0k/wiki/blob/master/",
+        editUrl: "https://github.com/padawanR0k/wiki/blob/master/content/",
       },
     },
     {
