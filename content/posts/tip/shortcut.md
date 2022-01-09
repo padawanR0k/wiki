@@ -4,6 +4,8 @@ tags:
   - 단축키
 ---
 
+> 아래 단축키는 mac os기준으로 작성되었습니다.
+
 ## vscode
 - [공식사이트](https://code.visualstudio.com/docs/getstarted/keybindings#_basic-editing)
 
@@ -13,9 +15,11 @@ tags:
 |터미널 열기|`alt` `ctrl` `T`|
 |수직으로 창 분할|`cmd` `L` + `<-`|
 |다른 폴더 목록보기|`cmd` `R`|
-|특정 라인만 커밋 스테이지에 올리기| 1. stage하려는 범위를 드래그한다. <br/>2. `command + k`  + `shift + command + s`|
+|특정 라인만 커밋 스테이지에 올리기| 1. stage하려는 범위를 드래그한다. <br/>2. `command + k`  + `option + command + s`|
 |키보드 입력 내용 노출하기|1. 콘솔연 후 `>screen` <br/>2. 개발자 스크린캐스크 모드 토글 선택|
 |사용하지 되지않는 import 지우기|`option` `shift` `O`|
+|터미널 영역에서 탭 이동하기 - 이전탭으로|`command` `shift` `[`|
+|터미널 영역에서 탭 이동하기 - 다음탭으로|`command` `shift` `]`|
 
 ## 터미널 (쉘)
 
