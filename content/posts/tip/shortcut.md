@@ -21,6 +21,23 @@ tags:
 |터미널 영역에서 탭 이동하기 - 이전탭으로|`command` `shift` `[`|
 |터미널 영역에서 탭 이동하기 - 다음탭으로|`command` `shift` `]`|
 
+## webstorm
+|작업|단축키|
+|---|----|
+|커맨드 창 열기|`shift` + `shift`|
+|패널 닫기|`shift` + `esc`|
+|go to definition|`option` + `space`|
+|cli에서 명령어 실행하기| `ctrl` + `ctrl`|
+|값이 사용되는곳 찾기|`option` + `f7`|
+|한 줄씩 옮기기|`shift` + `option` + `방향키`|
+|코드 블록단위로 옮기기|`shift` + `cmd` + `방향키`|
+|한 줄 지우기|`cmd` + `enter`|
+|변경 사항 확인|`cmd` + `9`|
+|변경 사항 상세 확인|`cmd` + `d`|
+|터미널 열기|`option` + `f12`|
+|파일의 시작|`cmd` + `home`|
+|파일의 끝|`cmd` + `end`|
+
 ## 터미널 (쉘)
 
 |작업|단축키|
