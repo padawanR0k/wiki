@@ -37,6 +37,13 @@ tags:
 |터미널 열기|`option` + `f12`|
 |파일의 시작|`cmd` + `home`|
 |파일의 끝|`cmd` + `end`|
+|navigation으로|`cmd` + `위 방항키`|
+|webstorm 터미널에서 열기 ([참고](https://stackoverflow.com/questions/26879172/how-to-open-webstorm-from-terminal))|`webstorm .`|
+|최근 수정 파일 표시|`cmd` + `shift` + `e`| 
+|최근 수정 열었던 파일 표시|`cmd` + `e`| 
+|hint 보기 (노란전구)|`option` + `enter`|
+|테스트 파일에서 모든 테스트 실행|`ctrl` + `shift` + `r`|
+|테스트 파일에서 단일 테스트 실행|`ctrl` + `shift` + `d`|
 
 ## 터미널 (쉘)
 
@@ -52,5 +59,6 @@ tags:
 
 |작업|단축키|
 |---|----|
-|`esc`를 누르면서 하나씩 확인표시를 할 수 있다.|`cmd` `shift` `A`|
-|메세지 내용, 발신자 이름 등으로 검색하기|`cmd` `K`|
+|`esc`를 누르면서 메세지를 하나씩 확인표시를 할 수 있다.|`cmd` `shift` `a`|
+|`esc`를 누르면서 쓰레드를 하나씩 확인표시를 할 수 있다.|`cmd` `shift` `t`|
+|메세지 내용, 발신자 이름 등으로 검색하기|`cmd` `k`|
