@@ -28,7 +28,8 @@ tags:
 |패널 닫기|`shift` + `esc`|
 |go to definition|`option` + `space`|
 |cli에서 명령어 실행하기| `ctrl` + `ctrl`|
-|값이 사용되는곳 찾기|`option` + `f7`|
+|값이 사용되는곳 찾기(find 패널)|`option` + `f7`|
+|find 패널로 돌아가기|`cmd` + `3`|
 |한 줄씩 옮기기|`shift` + `option` + `방향키`|
 |코드 블록단위로 옮기기|`shift` + `cmd` + `방향키`|
 |한 줄 지우기|`cmd` + `enter`|
@@ -44,6 +45,8 @@ tags:
 |hint 보기 (노란전구)|`option` + `enter`|
 |테스트 파일에서 모든 테스트 실행|`ctrl` + `shift` + `r`|
 |테스트 파일에서 단일 테스트 실행|`ctrl` + `shift` + `d`|
+|커서 위치 이동하기| `cmd` + `shift` + `[` or `]`|
+
 
 ## 터미널 (쉘)
 
