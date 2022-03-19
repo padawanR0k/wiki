@@ -62,7 +62,7 @@ module.exports = {
       resolve: 'gatsby-plugin-google-gtag',
       options: {
         trackingIds: [
-          'G-TY73YPT7LJ', // 설정 Google Analytics / GA
+          'G-2FF0VXBSK5', // 설정 Google Analytics / GA
         ],
       },
     },
