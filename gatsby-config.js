@@ -17,6 +17,14 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-google-gtag',
+      options: {
+        trackingIds: [
+          'G-2FF0VXBSK5', // 설정 Google Analytics / GA
+        ],
+      },
+    },
+    {
       resolve: "gatsby-source-filesystem",
       options: {
         name: "content",
@@ -56,14 +64,6 @@ module.exports = {
         host: siteMetadata.siteUrl,
         sitemap: `${siteMetadata.siteUrl}/sitemap/sitemap-index.xml`,
         policy: [{ userAgent: "*", allow: "/" }],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-google-gtag',
-      options: {
-        trackingIds: [
-          'G-2FF0VXBSK5', // 설정 Google Analytics / GA
-        ],
       },
     },
   ],
