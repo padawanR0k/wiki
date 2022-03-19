@@ -21,6 +21,35 @@ tags:
 |터미널 영역에서 탭 이동하기 - 이전탭으로|`command` `shift` `[`|
 |터미널 영역에서 탭 이동하기 - 다음탭으로|`command` `shift` `]`|
 
+## webstorm
+|작업|단축키|
+|---|----|
+|커맨드 창 열기|`shift` + `shift`|
+|패널 닫기|`shift` + `esc`|
+|go to definition|`option` + `space`|
+|cli에서 명령어 실행하기| `ctrl` + `ctrl`|
+|값이 사용되는곳 찾기(find 패널)|`option` + `f7`|
+|find 패널로 돌아가기|`cmd` + `3`|
+|한 줄씩 옮기기|`shift` + `option` + `방향키`|
+|코드 블록단위로 옮기기|`shift` + `cmd` + `방향키`|
+|한 줄 지우기|`cmd` + `enter`|
+|변경 사항 확인|`cmd` + `9`|
+|변경 사항 상세 확인|`cmd` + `d`|
+|터미널 열기|`option` + `f12`|
+|파일의 시작|`cmd` + `home`|
+|파일의 끝|`cmd` + `end`|
+|navigation으로|`cmd` + `위 방항키`|
+|webstorm 터미널에서 열기 ([참고](https://stackoverflow.com/questions/26879172/how-to-open-webstorm-from-terminal))|`webstorm .`|
+|최근 수정 파일 표시|`cmd` + `shift` + `e`| 
+|최근 수정 열었던 파일 표시|`cmd` + `e`| 
+|hint 보기 (노란전구)|`option` + `enter`|
+|테스트 파일에서 모든 테스트 실행|`ctrl` + `shift` + `r`|
+|테스트 파일에서 단일 테스트 실행|`ctrl` + `shift` + `d`|
+|커서 위치 이동하기| `cmd` + `shift` + `[` or `]`|
+|사용하지 않는 import 지우기| `ctrl` + `alt` + `o`|
+|전체 찾아 바꾸기| `cmd` + `shift` + `r`|
+|css 파일에서 셀렉ㅌ 찾기| `cmd` + `f12`|
+
 ## 터미널 (쉘)
 
 |작업|단축키|
@@ -35,5 +64,7 @@ tags:
 
 |작업|단축키|
 |---|----|
-|`esc`를 누르면서 하나씩 확인표시를 할 수 있다.|`cmd` `shift` `A`|
-|메세지 내용, 발신자 이름 등으로 검색하기|`cmd` `K`|
+|`esc`를 누르면서 메세지를 하나씩 확인표시를 할 수 있다.|`cmd` `shift` `a`|
+|`esc`를 누르면서 쓰레드를 하나씩 확인표시를 할 수 있다.|`cmd` `shift` `t`|
+|메세지 내용, 발신자 이름 등으로 검색하기|`cmd` `k`|
+|이전, 다음 페이지로 이동| `cmd` + `[` or `]`|
