@@ -49,6 +49,7 @@ tags:
 |사용하지 않는 import 지우기| `ctrl` + `alt` + `o`|
 |전체 찾아 바꾸기| `cmd` + `shift` + `r`|
 |css 파일에서 셀렉ㅌ 찾기| `cmd` + `f12`|
+|현재파일 ~에서 보기 (ex. Project viewer)| `alt` + `f1`|
 
 ## 터미널 (쉘)
 
