@@ -49,6 +49,8 @@ tags:
 |사용하지 않는 import 지우기| `ctrl` + `alt` + `o`|
 |전체 찾아 바꾸기| `cmd` + `shift` + `r`|
 |css 파일에서 셀렉ㅌ 찾기| `cmd` + `f12`|
+|현재파일 ~에서 보기 (ex. Project viewer)| `alt` + `f1`|
+|버튼을 키보들 누르기| `alt` + `alt를 누르고 있을때 밑줄이 생기는 글자` <img width="154" alt="image" src="https://user-images.githubusercontent.com/35283339/163316350-91e4f2e0-80a8-4eff-88f3-c8d1f2b1997b.png"/>|
 
 ## 터미널 (쉘)
 
@@ -68,3 +70,12 @@ tags:
 |`esc`를 누르면서 쓰레드를 하나씩 확인표시를 할 수 있다.|`cmd` `shift` `t`|
 |메세지 내용, 발신자 이름 등으로 검색하기|`cmd` `k`|
 |이전, 다음 페이지로 이동| `cmd` + `[` or `]`|
+
+## chrome
+|작업|단축키|
+|---|----|
+|개발자도구|`cmd` `shift` `i`|
+|개발자도구 수직/수평으로 보기|`cmd` `shift` `d`|
+|열려있는 탭에서 검색|`cmd` `shift` `a`|
+|즐겨찾기|`cmd` `d`|
+
