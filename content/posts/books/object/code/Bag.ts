@@ -1,5 +1,5 @@
 import Invitation from './Invitation';
-import Ticket from "./Ticket"
+import Ticket from './Ticket';
 
 class Bag {
   private amount: number
@@ -11,6 +11,17 @@ class Bag {
       this.invitaion = invitation;
     }
     this.amount = amount;
+  }
+
+  hold(ticket: Ticket) {
+    if(this.hasInvitaion()) {
+      this.setTicket(ticket);
+      return 0;
+    } else {
+      this.setTicket(ticket);
+      this.minusAmount(ticket.getFee());
+      return this.ticket.getFee()
+    }
   }
 
   hasInvitaion(): boolean {

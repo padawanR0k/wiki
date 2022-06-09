@@ -9,7 +9,7 @@ class TicketSeller {
   }
 
   public sellTo(audience: Audience) {
-    this.ticketOffice.plusAmount(audience.buy(this.ticketOffice.getTicket()))
+    this.ticketOffice.sellTicket(audience);
   }
 }
 

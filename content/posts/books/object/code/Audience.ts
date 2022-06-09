@@ -13,14 +13,7 @@ class Audience {
   }
 
   buy(ticket: Ticket) {
-    if (this.bag.hasInvitaion()) {
-      this.bag.setTicket(ticket);
-      return 0;
-    } else {
-      this.bag.setTicket(ticket);
-      this.bag.minusAmount(ticket.getFee());
-      return ticket.getFee()
-    }
+    return this.bag.hold(ticket)
   }
 }
 

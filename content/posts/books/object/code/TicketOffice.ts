@@ -1,4 +1,5 @@
 import Ticket from './Ticket';
+import Audience from './Audience';
 
 class TicketOffice {
   private amount: number;
@@ -7,6 +8,10 @@ class TicketOffice {
   constructor(amount: number, tickets: Ticket[]) {
     this.amount = amount;
     this.tickets = tickets;
+  }
+
+  sellTicket(audience: Audience) {
+    this.plusAmount(audience.buy(this.getTicket()));
   }
 
   getTicket() {
