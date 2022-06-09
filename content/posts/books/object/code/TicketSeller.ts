@@ -9,17 +9,7 @@ class TicketSeller {
   }
 
   public sellTo(audience: Audience) {
-    if (audience.getBag().hasInvitaion()) {
-      const ticket = this.ticketOffice.getTicket();
-
-      audience.getBag().setTicket(ticket);
-    } else {
-      const ticket = this.ticketOffice.getTicket();
-
-      audience.getBag().minusAmount(ticket.getFee());
-      this.ticketOffice.plusAmount(ticket.getFee());
-      audience.getBag().setTicket(ticket);
-    }
+    this.ticketOffice.plusAmount(audience.buy(this.ticketOffice.getTicket()))
   }
 }
 
