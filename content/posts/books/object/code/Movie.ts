@@ -23,6 +23,10 @@ class Movie {
     // 어떤 할인정책을 사용할 건지에 대한 코드가 없다.
     return this.fee.minus(this.discountPolicy.calculateDiscountAmount(screening));
   }
+
+  changeDiscountPolicy(discountPolicy: DiscountPolicy) {
+    this.discountPolicy = discountPolicy;
+  }
 }
 
 export default Movie;

@@ -1,7 +1,12 @@
+import DiscountCondition from "./DiscountCondition";
 import Money from "./Money";
 import Screening from "./Screening";
 
-abstract class DiscountPolicy {
+export interface DiscountPolicy {
+  calculateDiscountAmount(screening: Screening): Money
+}
+
+abstract class DefaultDiscountPolicy implements DiscountPolicy {
   private conditions: Array<DiscountCondition> = [];
 
   constructor(conditions: DiscountCondition[]) {
@@ -21,4 +26,4 @@ abstract class DiscountPolicy {
   protected abstract getDiscountAmount(screening: Screening): Money;
 }
 
-export default DiscountPolicy;
+export default DefaultDiscountPolicy;
