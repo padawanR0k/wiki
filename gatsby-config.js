@@ -1,5 +1,5 @@
 const path = require("path");
-const pathPrefix = "";
+const pathPrefix = "/";
 const siteMetadata = {
   title: "Wiki By r0k",
   shortName: "r0k Wiki",
