@@ -1,10 +1,9 @@
 const path = require("path");
-const pathPrefix = "/wiki";
+const pathPrefix = "";
 const siteMetadata = {
   title: "Wiki By r0k",
   shortName: "r0k Wiki",
-  description:
-    "r0k의 개인위키",
+  description: "기록하고, 수정하고, 기록합니다",
   imageUrl: "/logo.png",
   siteUrl: "https://padawanr0k.github.io",
   fbAppId: "",
