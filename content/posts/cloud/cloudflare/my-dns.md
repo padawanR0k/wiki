@@ -40,9 +40,21 @@ SEO를 위해 [Google Search Console](https://search.google.com/search-console/a
 3. 기존에 등록한 속성의 설정 - 일반 설정 - 주소 변경 클릭
 
 
-## 앞으로 해봐야 할 것
+## To do list
 - Cloudflare 서비스 좀 더 활용해보기
 	- Pages
 	- Analytics
 - wiki에 글 자주 올리기
 - SEO 잘되는지 확인하기
+
+
+## 번외) cloudflare 사용 전/후 로드 속도 비교
+> 개발자도구 - 네트워크 탭에서 har를 다운받아 https://compare.sitespeed.io/ 에서 비교하여 볼 수 있다.
+
+### 사용 전
+![[har-before.png]]
+
+### 사용 후
+![[har-after.png]]
+
+1줄요약: 초기 block시간이 3732ms -> 847ms 만큼 줄었음
