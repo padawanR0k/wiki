@@ -9,7 +9,7 @@ tags:
 `padawanR0k.github.io`와 겹치는 부분때문에 뭔가 SEO가 잘  안되기도 했고, 예전부터 나만의 주소를 가보고 싶었어서 도메인 구매하기로 마음을 먹었다.
 
 ## cloudflare domains
-구글링을 해보니 도메인을 구매할 수 있는 곳은 많았다. godaddy, google domains, 가비아 등.
+구글링을 해보니 도메인을 구매할 수 있는 곳은 많았다. [godaddy](https://kr.godaddy.com/), [google domains](https://domains.google/), [가비아](https://www.gabia.com/) 등.
 그러다가 cloudflare에서도 도메인을 살 수 있다는걸 알게됐다. cloudflare는 2022 [인프콘 방명록](https://github.com/inflearn/infcon2022-guestbook)을  `Pages` 로 배포하면서 처음 써봤다. 그 때 써보면서 사용성이 편하다고 느꼈다.  나중에 한번 써먹어봐야지 했는데 딱 적당한 기회인 것 같았다.
 
 ## 도메인 구매하기
