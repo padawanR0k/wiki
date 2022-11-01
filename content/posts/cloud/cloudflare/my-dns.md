@@ -58,3 +58,8 @@ SEO를 위해 [Google Search Console](https://search.google.com/search-console/a
 ![[har-after.png]]
 
 1줄요약: 초기 block시간이 3732ms -> 847ms 만큼 줄었음
+
+## 트러블 슈팅
+- 깃허브 액션에서 봇이 `pages build and deployment` 액션을 자동으로 실행시킴 -> 이 액션이 custom domain 설정을 밀어버리고 이상한 URL로 배포됨
+- 확인해보니 해당 봇은 비활성화 시킬 수 없음. 
+- 덮어씌워지는 URL을 내가 원하는 URL 지정하고 싶으면 `static/CNAME` 파일에 url을 추가하면됨 [(참고)](https://github.com/orgs/community/discussions/22366)
