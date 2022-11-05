@@ -2,7 +2,7 @@ node_modules/
 .cache/
 public
 content/.obsidian/workspace
-content/.obsidian
+content/.obsidian/
 app.json
 .idea
 .obsidian

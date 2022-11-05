@@ -5,7 +5,7 @@ const siteMetadata = {
   shortName: "r0k Wiki",
   description: "기록하고, 수정하고, 기록합니다",
   imageUrl: "/logo.png",
-  siteUrl: "https://padawanr0k.github.io",
+  siteUrl: "https://r0k.wiki",
   fbAppId: "",
 };
 module.exports = {
@@ -41,6 +41,7 @@ module.exports = {
           },
         ],
         editUrl: "https://github.com/padawanR0k/wiki/blob/master/content/",
+        latestUpdatedText: "최근 수정된"
       },
     },
     {
