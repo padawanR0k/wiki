@@ -1,5 +1,6 @@
 ---
 title: git 딥다이브 - git branch, tag, HEAD
+date: 2022-09-24
 tags:
   - git
 ---

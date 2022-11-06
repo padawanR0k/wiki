@@ -1,7 +1,8 @@
 ---
 title: DOMMatrixReadOnly
+date: 2022-09-18
 tags:
-  - Web api
+  - Web API
 ---
 
 [MDN 링크](https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly)

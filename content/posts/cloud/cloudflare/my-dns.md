@@ -1,5 +1,6 @@
 ---
 title: github 블로그에 도메인 연결하기 by cloudflare
+date: 2022-11-01
 tags:
   - cloudflare
 ---

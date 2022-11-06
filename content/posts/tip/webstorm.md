@@ -1,5 +1,6 @@
 ---
 title: webstorm을 사용하면서 겪었던 이슈 정리
+date: 2022-05-31
 tags:
   - webstorm
 ---

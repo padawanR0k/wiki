@@ -1,5 +1,6 @@
 ---
 title: git 딥다이브 - git merge, rebase
+date: 2022-10-02
 tags:
   - git
 ---
