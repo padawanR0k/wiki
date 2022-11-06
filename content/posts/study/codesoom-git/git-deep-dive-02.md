@@ -1,6 +1,7 @@
 ---
 title: git 딥다이브 - git merge, rebase
 date: 2022-10-02
+updated: 2022-10-02
 tags:
   - git
 ---
@@ -54,27 +55,27 @@ tags:
 ![[rebase-01.png]]
 
 -   지정한 커밋의 변경사항만 가져오는 예시
-    
+
 -   한번에 여러개 체리픽하기
-    
+
     -   `git cherry-pick a1 a2 a3`
     -   연속적으로 있는 경우 `git cherry-pick a1..a3`
 
 # rebase
 
 -   작동 순서
-    
+
     1.  `git rebase b`
     2.  두 브랜치간의 공통 부모 노드를 찾음
     3.  부모노드부터 b브랜치의 헤드까지 변경사항들을 찾음
     4.  현재 브랜치에 변경사항들 적용
 -   merge와 뭐가 다른가?
-    
+
     -   merge 커밋은 부모 노드가 두개임. (대상이 되는 브랜치들)
     -   rebase는 부모노드가 1개임
 -   rebase시, 현재 브랜치의 헤드가 대상이 되는 브랜치의 부모인 경우
-    
+
 
 ![[rebase-02.png]]
-    
+
     -   fast-forward 상태이기 때문에 변경사항이 없다. 다만 `-ff` 옵션을 사용하면 fast-foward가 아닌 머지가 가능하다.

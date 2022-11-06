@@ -1,6 +1,7 @@
 ---
 title: git 딥다이브 - history
 date: 2022-10-02
+updated: 2022-10-02
 tags:
   - git
 ---
@@ -32,11 +33,11 @@ git revert -n master~5..master~2
 
 -   커밋의 내용들을 수정한다. `-i` 옵션은 interactive를 뜻한다. 터미널에서 해당 명령어를 실행시켜보면 유저의 입력과 상호작용하며 깃 히스토리를 수정할 수 있다.
     -   편집기에는 유저가 입력한 매개변수에 따라 커밋 리스트를 보여주고, 어떤 옵션이 있는지 주석으로 적혀있다.
-        
+
         ```bash
         pick 9a54fd4 commit의 설명 추가
         pick 0d4a808 pull의 설명을 추가
-        
+
         # Rebase 326fc9f..0d4a808 onto d286baa
         #
         # Commands:
@@ -48,8 +49,8 @@ git revert -n master~5..master~2
         #  x, exec = run command (the rest of the line) using shell
         #
         ```
-        
-    
+
+
 
 커밋기록을 통해 코드를 이전 상태로 되돌리는 목적으로 사용되는것은 매한가지이다. 다만 각각의 명령어를 실행했을때 커밋이 바뀌는 메커니즘이 다르기 때문에 지금 처한 상황이 어떤지 파악하고, 어떻게 커밋 기록을 남겨야할지 고민한 후 적절한 명령어를 사용하면 된다.
 

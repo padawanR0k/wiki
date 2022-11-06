@@ -1,6 +1,7 @@
 ---
 title: Blob
 date: 2022-09-17
+updated: 2022-09-17
 tags:
   - Web API
 ---

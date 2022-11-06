@@ -1,13 +1,14 @@
 ---
 title: DOMMatrixReadOnly
 date: 2022-09-18
+updated: 2022-09-18
 tags:
   - Web API
 ---
 
 [MDN 링크](https://developer.mozilla.org/en-US/docs/Web/API/DOMMatrixReadOnly)
 
-> DOMMatrixReadOnly 인터페이스는 2D 및 3D 작업에 적합한 읽기 전용 4×4 행렬을 나타낸다. 
+> DOMMatrixReadOnly 인터페이스는 2D 및 3D 작업에 적합한 읽기 전용 4×4 행렬을 나타낸다.
 
 
 ## Properties
@@ -16,7 +17,7 @@ tags:
 matrix가 2D matrix로 생성되었으면 `true`를 반환한다. 3D일 경우 false를 반환한다.
 
 
-### `isIdentity`  
+### `isIdentity` 
 - matrix가 [단위 행렬](https://en.wikipedia.org/wiki/Identity_matrix)인 경우 `true`를 반환한다.
 
 

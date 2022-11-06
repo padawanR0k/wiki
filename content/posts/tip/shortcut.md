@@ -1,6 +1,7 @@
 ---
 title: 내가 써먹으려고 정리한 단축키 & 명령어 모음
 date: 2022-06-16
+updated: 2022-06-16
 tags:
   - 단축키
 ---
@@ -41,8 +42,8 @@ tags:
 |파일의 끝|`cmd` + `end`|
 |navigation으로|`cmd` + `위 방항키`|
 |webstorm 터미널에서 열기 ([참고](https://stackoverflow.com/questions/26879172/how-to-open-webstorm-from-terminal))|`webstorm .`|
-|최근 수정 파일 표시|`cmd` + `shift` + `e`| 
-|최근 수정 열었던 파일 표시|`cmd` + `e`| 
+|최근 수정 파일 표시|`cmd` + `shift` + `e`|
+|최근 수정 열었던 파일 표시|`cmd` + `e`|
 |hint 보기 (노란전구)|`option` + `enter`|
 |테스트 파일에서 모든 테스트 실행|`ctrl` + `shift` + `r`|
 |테스트 파일에서 단일 테스트 실행|`ctrl` + `shift` + `d`|

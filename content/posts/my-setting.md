@@ -1,6 +1,7 @@
 ---
 title: 내 개발 환경 세팅 기록
 date: 2022-05-31
+updated: 2022-05-31
 tags:
   - my-setting
 ---
