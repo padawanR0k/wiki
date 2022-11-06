@@ -41,7 +41,9 @@ module.exports = {
           },
         ],
         editUrl: "https://github.com/padawanR0k/wiki/blob/master/content/",
-        latestUpdatedText: "최근 수정된"
+        sidebarComponents: ["latest", "tag"],
+        lastUpdatedText: "최근 수정 시각",
+        shouldSupportLatest: true,
       },
     },
     {
