@@ -50,7 +50,9 @@ SEO를 위해 [Google Search Console](https://search.google.com/search-console/a
 - SEO 잘되는지 확인하기
 
 
-## 번외) cloudflare 사용 전/후 로드 속도 비교
+# 번외
+
+## cloudflare 사용 전/후 로드 속도 비교
 > 개발자도구 - 네트워크 탭에서 har를 다운받아 https://compare.sitespeed.io/ 에서 비교하여 볼 수 있다.
 
 ### 사용 전
@@ -60,3 +62,17 @@ SEO를 위해 [Google Search Console](https://search.google.com/search-console/a
 ![[har-after.png]]
 
 1줄요약: 초기 block시간이 3732ms -> 847ms 만큼 줄었음
+
+## cloudflare pages로 배포할 때 단점
+이 위키는 페이지의 최근 수정시간을 보여줄 수 있는 기능이 있다. 하지만 왜인지 이 부분이 항상 배포한 시각으로 고정되고 있었다.
+이 위키 테마를 먼저 사용하고 계시던 분께 [질문](https://github.com/padosum/blog/discussions/35#discussioncomment-4072910)하여 알아낸 원인은 다음과 같았다.
+1. 배포를 cloudflare pages를 사용하고 있었다.
+2. cloudflare pages는 단순히 깃허브 레포지토리만 연결하고, 빌드 명령어만 지정해주면 알아서 배포해준다.
+3. 빌드를 하기위해 레포지토리를 clone할 때, git clone시 [shallow clone](https://bitlog.tistory.com/66)을 한다.
+4. 이로 인해 git clone한 파일의 업데이트 히스토리를 파악할 수 없게된다.
+5. 빌드시 생성일자로 최근 수정일자가 업데이트 날짜로 들어간다.
+
+shallow clone이 되지 않게하려면 `git clone`시 `fetch-depth`를 0으로 지정해줘야한다.
+
+하지만 cloudflare pages 설정화면에서 아무리 찾아봐도 git clone시 옵션을 전달할 수 있는 방법은 없었다.
+결국 github action으로 github pages에 배포하여 문제를 해결했다.
