@@ -60,7 +60,7 @@
             }
           },
           {
-            "id": "2b11266c5a9f1797",
+            "id": "4320ec210eda9290",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -71,9 +71,35 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "7b01f9b73417b10f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/seo/nextjs dynamic sitemap.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b735250f004278ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/seo/nextjs dynamic sitemap.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -115,7 +141,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 217.5
   },
   "right": {
     "id": "f49ce100284b3ef6",
@@ -131,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/books/object/03.md",
+                "file": "posts/seo/nextjs dynamic sitemap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/books/object/03.md",
+                "file": "posts/seo/nextjs dynamic sitemap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -171,12 +197,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/books/object/03.md"
+                "file": "posts/seo/nextjs dynamic sitemap.md"
               }
             }
           },
           {
-            "id": "e95e35bc1601d98d",
+            "id": "4f56adb7ea1f9005",
             "type": "leaf",
             "state": {
               "type": "metatable-sidebar-view",
@@ -184,23 +210,23 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
     "width": 300
   },
-  "active": "35743fe8a8595fbf",
+  "active": "b735250f004278ee",
   "lastOpenFiles": [
-    "posts/regex/regex_01.md",
+    "posts/seo/sitemap01.png",
+    "posts/seo/nextjs dynamic sitemap.md",
+    "posts/seo/robots.txt.md",
     "posts/monitoring/sentry.md",
     "posts/regex/regular-language.md",
+    "posts/books/object/04.md",
+    "posts/books/object/03.md",
+    "posts/regex/regex_01.md",
     "readme.md",
-    "Web_API/DOMMatrixReadOnly.md",
-    "Web_API/Blob.md",
-    "posts/tip/webstorm.md",
-    "posts/my-setting.md",
-    "posts/tip/shortcut.md",
-    "posts/study/codesoom-git/git-deep-dive-03.md"
+    "Web_API/DOMMatrixReadOnly.md"
   ]
 }
