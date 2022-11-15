@@ -22,6 +22,9 @@ tags:
 |사용하지 되지않는 import 지우기|`option` `shift` `O`|
 |터미널 영역에서 탭 이동하기 - 이전탭으로|`command` `shift` `[`|
 |터미널 영역에서 탭 이동하기 - 다음탭으로|`command` `shift` `]`|
+|포커스 이동하기|`ctrl` `+`, `-`|
+|탐색기에 focus|`cmd` + `shift` + `e`|
+|함수 변수 사용처 찾거나, 정의 찾기|`f12`|
 
 ## webstorm
 |작업|단축키|
