@@ -6,7 +6,7 @@ tags:
   - cloudflare
 ---
 
-
+## 계기
 기존에는 github pages를 사용해 이 위키 사이트를 [padawanR0k.github.io/wiki](padawanR0k.github.io/wiki)에 배포했었다.
 `padawanR0k.github.io`와 겹치는 부분때문에 뭔가 SEO가 잘  안되기도 했고, 예전부터 나만의 주소를 가보고 싶었어서 도메인 구매하기로 마음을 먹었다.
 
