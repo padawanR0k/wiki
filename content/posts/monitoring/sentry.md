@@ -1,9 +1,10 @@
 ---
 title: Sentry
 date: 2022-11-07
-updated: 2022-11-07
+updated: 2022-11-17T22:40:12+09:00
 tags:
   - Sentry
+created: 2022-11-17T22:39:34+09:00
 ---
 
 ## crash free sessions 활성화
