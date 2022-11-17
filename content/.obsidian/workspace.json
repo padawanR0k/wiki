@@ -86,7 +86,7 @@
             }
           },
           {
-            "id": "b735250f004278ee",
+            "id": "75ba6c83caefd47c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -216,17 +216,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "b735250f004278ee",
+  "active": "75ba6c83caefd47c",
   "lastOpenFiles": [
-    "posts/seo/sitemap01.png",
+    "posts/seo/redirection_308.png",
     "posts/seo/nextjs dynamic sitemap.md",
     "posts/seo/robots.txt.md",
+    "posts/seo/sitemap01.png",
     "posts/monitoring/sentry.md",
     "posts/regex/regular-language.md",
     "posts/books/object/04.md",
     "posts/books/object/03.md",
     "posts/regex/regex_01.md",
-    "readme.md",
-    "Web_API/DOMMatrixReadOnly.md"
+    "readme.md"
   ]
 }
