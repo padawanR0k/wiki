@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/books/object/03.md",
+                "file": "posts/books/object/오브젝트-03.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/books/object/02.md",
+                "file": "posts/books/object/오브젝트-02.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -39,7 +39,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/books/object/04.md",
+                "file": "posts/books/object/오브젝트-04.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/regex/regular-language.md",
+                "file": "posts/books/object/오브젝트-01.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "4320ec210eda9290",
+            "id": "b571562cd2a2b5b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/seo/nextjs dynamic sitemap.md",
+                "file": "posts/books/object/오브젝트-00.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/seo/nextjs dynamic sitemap.md",
+                "file": "posts/books/object/오브젝트-00.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/seo/nextjs dynamic sitemap.md",
+                "file": "posts/books/object/오브젝트-00.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +179,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/seo/nextjs dynamic sitemap.md"
+                "file": "posts/books/object/오브젝트-00.md"
               }
             }
           },
@@ -198,17 +198,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "4320ec210eda9290",
+  "active": "b571562cd2a2b5b4",
   "lastOpenFiles": [
-    "posts/monitoring/sentry.md",
-    "posts/seo/308-Permanent-Redirect.png",
-    "posts/seo/nextjs dynamic sitemap.md",
-    "posts/seo/robots.txt.md",
-    "posts/cloud/cloudflare/my-dns.md",
-    "posts/seo/redirection_308.png",
-    "posts/seo/sitemap01.png",
+    "posts/books/object/오브젝트-00.md",
+    "posts/books/object/오브젝트-01.md",
+    "posts/books/object/오브젝트-02.md",
+    "posts/books/object/오브젝트-03.md",
+    "posts/books/object/오브젝트-04.md",
+    "posts/books/object/오브젝트-05.md",
+    "posts/books/object/오브젝트-06.md",
+    "posts/study/codesoom-git/git-deep-dive-01.md",
     "posts/regex/regular-language.md",
-    "posts/books/object/04.md",
-    "posts/books/object/03.md"
+    "old/docs/features/graph-visualization.md"
   ]
 }
