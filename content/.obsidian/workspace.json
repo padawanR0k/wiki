@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "61426a4024902d57",
+            "id": "250f618a5b076a6c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/books/object/오브젝트-03.md",
+                "file": "posts/books/object/오브젝트-02.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "250f618a5b076a6c",
+            "id": "9ea545d14a12925f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/books/object/오브젝트-02.md",
+                "file": "posts/01_library/shaka-player/shaka player 정보 정리.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -73,19 +73,6 @@
             }
           },
           {
-            "id": "7a62a3aec7203c97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "links/좋은 포스트 모음.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
             "id": "75ba6c83caefd47c",
             "type": "leaf",
             "state": {
@@ -94,7 +81,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -136,7 +123,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 252.5
+    "width": 200
   },
   "right": {
     "id": "f49ce100284b3ef6",
@@ -152,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "links/좋은 포스트 모음.md",
+                "file": "posts/01_library/shaka-player/shaka player 정보 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -169,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "links/좋은 포스트 모음.md",
+                "file": "posts/01_library/shaka-player/shaka player 정보 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,16 +179,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "links/좋은 포스트 모음.md"
+                "file": "posts/01_library/shaka-player/shaka player 정보 정리.md"
               }
-            }
-          },
-          {
-            "id": "4f56adb7ea1f9005",
-            "type": "leaf",
-            "state": {
-              "type": "metatable-sidebar-view",
-              "state": {}
             }
           }
         ],
@@ -209,16 +188,31 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
-  "active": "7a62a3aec7203c97",
+  "left-ribbon": {
+    "hiddenItems": {
+      "obsidian-metatable:Metatable": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false,
+      "random-note:Open random note": false
+    }
+  },
+  "active": "9ea545d14a12925f",
   "lastOpenFiles": [
+    "posts/books/object/오브젝트-02.md",
+    "posts/01_library/shaka-player/shaka player 정보 정리.md",
+    "posts/01_library/shakap-layer/Untitled",
+    "posts/01_library/shaka-player",
+    "posts/01_library",
+    "posts/books/object/오브젝트-03.md",
     "posts/my-setting.md",
     "links/좋은 포스트 모음.md",
     "posts/books/object/오브젝트-00.md",
     "posts/books/object/오브젝트-01.md",
-    "posts/books/object/오브젝트-02.md",
-    "posts/books/object/오브젝트-03.md",
     "posts/books/object/오브젝트-04.md",
     "posts/books/object/오브젝트-05.md",
     "posts/books/object/오브젝트-06.md",
