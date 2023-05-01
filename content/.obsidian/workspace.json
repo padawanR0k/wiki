@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/monitoring/sentry.md",
+                "file": "posts/01_library/shaka-player/shaka player 정보 정리.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -78,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/monitoring/sentry.md",
+                "file": "posts/01_library/shaka-player/shaka player 정보 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -95,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/monitoring/sentry.md",
+                "file": "posts/01_library/shaka-player/shaka player 정보 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/monitoring/sentry.md"
+                "file": "posts/01_library/shaka-player/shaka player 정보 정리.md"
               }
             }
           }
@@ -142,11 +142,13 @@
   },
   "active": "bdce4d10772b6bd5",
   "lastOpenFiles": [
+    "posts/01_library/shaka-player/m3u8.png",
+    "posts/01_library/shaka-player/shaka player 정보 정리.md",
+    "posts/monitoring/sentry.md",
     "posts/books/object/오브젝트-00.md",
     "posts/books/object/오브젝트-01.md",
     "posts/books/object/오브젝트-04.md",
     "posts/books/object/오브젝트-02.md",
-    "posts/01_library/shaka-player/shaka player 정보 정리.md",
     "posts/01_library/shakap-layer/Untitled",
     "posts/01_library/shaka-player",
     "posts/01_library",

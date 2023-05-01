@@ -1,7 +1,7 @@
 ---
 title: Sentry
 date: 2022-11-07
-updated: 2023-05-01T15:51:40+09:00
+updated: 2023-05-01T15:55:37+09:00
 tags:
   - Sentry
 created: 2022-11-17T22:39:34+09:00
