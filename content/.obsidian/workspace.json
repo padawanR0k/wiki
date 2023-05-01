@@ -4,84 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "300b0e8336974c58",
+        "id": "e5bd373a9c536dca",
         "type": "tabs",
         "children": [
           {
-            "id": "250f618a5b076a6c",
+            "id": "bdce4d10772b6bd5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/books/object/오브젝트-02.md",
+                "file": "posts/monitoring/sentry.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
-            }
-          },
-          {
-            "id": "9ea545d14a12925f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/01_library/shaka-player/shaka player 정보 정리.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd231b1d6ee0227a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/books/object/오브젝트-04.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "387f1a3fb6c8d19d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/books/object/오브젝트-01.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b571562cd2a2b5b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/books/object/오브젝트-00.md",
-                "mode": "source",
-                "backlinks": true,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "75ba6c83caefd47c",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -139,7 +78,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/01_library/shaka-player/shaka player 정보 정리.md",
+                "file": "posts/monitoring/sentry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +95,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/01_library/shaka-player/shaka player 정보 정리.md",
+                "file": "posts/monitoring/sentry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,7 +118,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/01_library/shaka-player/shaka player 정보 정리.md"
+                "file": "posts/monitoring/sentry.md"
               }
             }
           }
@@ -201,8 +140,11 @@
       "random-note:Open random note": false
     }
   },
-  "active": "9ea545d14a12925f",
+  "active": "bdce4d10772b6bd5",
   "lastOpenFiles": [
+    "posts/books/object/오브젝트-00.md",
+    "posts/books/object/오브젝트-01.md",
+    "posts/books/object/오브젝트-04.md",
     "posts/books/object/오브젝트-02.md",
     "posts/01_library/shaka-player/shaka player 정보 정리.md",
     "posts/01_library/shakap-layer/Untitled",
@@ -211,9 +153,6 @@
     "posts/books/object/오브젝트-03.md",
     "posts/my-setting.md",
     "links/좋은 포스트 모음.md",
-    "posts/books/object/오브젝트-00.md",
-    "posts/books/object/오브젝트-01.md",
-    "posts/books/object/오브젝트-04.md",
     "posts/books/object/오브젝트-05.md",
     "posts/books/object/오브젝트-06.md",
     "posts/study/codesoom-git/git-deep-dive-01.md"
