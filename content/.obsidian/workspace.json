@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/tip/chatgpt.md",
+                "file": "posts/seo/nextjs dynamic sitemap.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "draft",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -71,8 +71,17 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "3b75fdacfc62a94e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -92,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/tip/chatgpt.md",
+                "file": "posts/seo/nextjs dynamic sitemap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/tip/chatgpt.md",
+                "file": "posts/seo/nextjs dynamic sitemap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/tip/chatgpt.md"
+                "file": "posts/seo/nextjs dynamic sitemap.md"
               }
             }
           }
@@ -154,10 +163,12 @@
       "random-note:Open random note": false
     }
   },
-  "active": "301710d60b02e38a",
+  "active": "8b93d7eaa0187863",
   "lastOpenFiles": [
-    "posts/tip/shortcut.md",
+    "posts/seo/robots.txt.md",
+    "posts/seo/308-Permanent-Redirect.png",
     "posts/tip/chatgpt.md",
+    "posts/tip/shortcut.md",
     "posts/tip/webstorm.md",
     "posts/01_library/shaka-player/shaka player 정보 정리.md",
     "posts/01_library/shaka-player/m3u8.png",
