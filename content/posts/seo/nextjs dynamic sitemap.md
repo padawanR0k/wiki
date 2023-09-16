@@ -1,7 +1,7 @@
 ---
 title: next.js SEO 개선하기
 date: 2022-11-09
-updated: 2022-11-19T14:02:20+09:00
+updated: 2023-05-27T19:10:55+09:00
 tags:
   - SEO
 created: 2022-11-09T11:28:03+09:00
