@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/javascript/자바스크립트 데드 코드 제거.md",
+                "file": "posts/frontend/performance-tip.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:javascript",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/javascript/자바스크립트 데드 코드 제거.md",
+                "file": "posts/frontend/performance-tip.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/javascript/자바스크립트 데드 코드 제거.md",
+                "file": "posts/frontend/performance-tip.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/javascript/자바스크립트 데드 코드 제거.md"
+                "file": "posts/frontend/performance-tip.md"
               }
             }
           }
@@ -164,11 +164,13 @@
   },
   "active": "301710d60b02e38a",
   "lastOpenFiles": [
-    "posts/javascript/asynchronous.md",
+    "Pasted image 20231101104627.png.md",
+    "posts/frontend/performance-tip.md",
+    "posts/tip/shortcut.md",
     "posts/javascript/자바스크립트 데드 코드 제거.md",
+    "posts/javascript/asynchronous.md",
     "posts/01_library/shaka-player/shaka-player tip.md",
     "posts/seo/nextjs dynamic sitemap.md",
-    "posts/tip/shortcut.md",
     "posts/seo/robots.txt.md",
     "posts/seo/308-Permanent-Redirect.png",
     "posts/tip/chatgpt.md",
