@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/tip/키보드 안쓰기.md",
+                "file": "posts/tip/나만의 업무 습관 정리.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -80,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/tip/키보드 안쓰기.md",
+                "file": "posts/tip/나만의 업무 습관 정리.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/tip/키보드 안쓰기.md",
+                "file": "posts/tip/나만의 업무 습관 정리.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/tip/키보드 안쓰기.md"
+                "file": "posts/tip/나만의 업무 습관 정리.md"
               }
             }
           }
@@ -165,11 +164,12 @@
   },
   "active": "78e9e5c96f75eb47",
   "lastOpenFiles": [
-    "posts/javascript/자바스크립트 데드 코드 제거.md",
     "posts/tip/키보드 안쓰기.md",
+    "posts/tip/나만의 업무 습관 정리.md",
+    "posts/tip/chatgpt.md",
+    "posts/javascript/자바스크립트 데드 코드 제거.md",
     "posts/tip/webstorm.md",
     "posts/tip/shortcut.md",
-    "posts/tip/chatgpt.md",
     "posts/frontend/performance-tip.md",
     "Pasted image 20231101104627.png.md",
     "posts/javascript/asynchronous.md",
