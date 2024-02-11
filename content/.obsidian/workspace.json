@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/tip/나만의 업무 습관 정리.md",
+                "file": "posts/tip/레거시를 더 나은 환경으로 만들기.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -100,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/tip/나만의 업무 습관 정리.md",
+                "file": "posts/tip/레거시를 더 나은 환경으로 만들기.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/tip/나만의 업무 습관 정리.md",
+                "file": "posts/tip/레거시를 더 나은 환경으로 만들기.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/tip/나만의 업무 습관 정리.md"
+                "file": "posts/tip/레거시를 더 나은 환경으로 만들기.md"
               }
             }
           }
@@ -164,12 +164,14 @@
   },
   "active": "78e9e5c96f75eb47",
   "lastOpenFiles": [
-    "posts/tip/키보드 안쓰기.md",
     "posts/tip/나만의 업무 습관 정리.md",
+    "posts/tip/레거시를 더 나은 환경으로 만들기.md",
+    "posts/tip/키보드 안쓰기.md",
     "posts/tip/chatgpt.md",
-    "posts/javascript/자바스크립트 데드 코드 제거.md",
-    "posts/tip/webstorm.md",
     "posts/tip/shortcut.md",
+    "posts/tip/webstorm.md",
+    "posts/books/object/오브젝트-06.md",
+    "posts/javascript/자바스크립트 데드 코드 제거.md",
     "posts/frontend/performance-tip.md",
     "Pasted image 20231101104627.png.md",
     "posts/javascript/asynchronous.md",
@@ -190,7 +192,6 @@
     "posts/my-setting.md",
     "links/좋은 포스트 모음.md",
     "posts/books/object/오브젝트-05.md",
-    "posts/books/object/오브젝트-06.md",
     "posts/study/codesoom-git/git-deep-dive-01.md"
   ]
 }
