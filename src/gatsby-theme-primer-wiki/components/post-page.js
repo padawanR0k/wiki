@@ -108,6 +108,7 @@ const Post = ({ data, pageContext, location }) => {
   );
 
   const { resolvedColorMode } = useTheme();
+  console.log(resolvedColorMode);
   return (
     <Layout pageContext={pageContext} location={location}>
       <SEO post={postSeoData}></SEO>
@@ -220,16 +221,18 @@ const Post = ({ data, pageContext, location }) => {
             <TagsBlock tags={tags} nodes={tagsOutbound.nodes} />
           )}
           <PageFooter editUrl={editUrl} lastUpdated={lastUpdated} />
+
           <Giscus
             repo="padawanr0k/wiki"
-            repoId="R_kgDOGiG0_g="
+            repoId="R_kgDOGiG0_g"
             category="Announcements"
             categoryId="DIC_kwDOGiG0_s4CATDO"
             mapping="pathname"
             term={title}
             reactionsEnabled="1"
             emitMetadata="1"
-            theme={resolvedColorMode === "day" ? "light" : "dark_high_contrast"}
+            data-lang="ko"
+            theme={resolvedColorMode === "night" ? "dark_high_contrast" : "light_high_contrast"}
           />
         </Box>
       </Box>
