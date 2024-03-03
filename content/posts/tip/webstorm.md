@@ -1,9 +1,10 @@
 ---
 title: webstorm 사용 팁
 date: 2022-05-31
-updated: 2024-02-27T00:35:13+09:00
+updated: 2024-03-03T16:30:10+09:00
 tags:
   - webstorm
+  - tip
 created: 2024-02-27T00:33:49+09:00
 ---
 ## Tip
