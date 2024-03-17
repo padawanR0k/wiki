@@ -1,9 +1,11 @@
 ---
-
 title: 웹팩을 쓰는 이유와 사용법 정리
-date:  2021-01-18
-tags: javascript
-keywords: webpack
+date: 2021-01-18
+tags:
+  - javascript
+keywords:
+created: 2024-03-17T15:02:23+09:00
+updated: 2024-03-17T15:02:23+09:00
 ---
 
 # 웹팩이란?
