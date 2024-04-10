@@ -19,8 +19,22 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8e7ef2d88f285313",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/web/video player.md",
+                "mode": "source",
+                "backlinks": true,
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:tip",
+                "query": "tag:성능최적화",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -66,7 +80,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -86,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/tip/webstorm.md",
+                "file": "posts/web/video player.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/tip/webstorm.md",
+                "file": "posts/web/video player.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,12 +141,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/tip/webstorm.md"
+                "file": "posts/web/video player.md"
               }
+            }
+          },
+          {
+            "id": "a62883818d1f6d07",
+            "type": "leaf",
+            "state": {
+              "type": "metatable-sidebar-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -148,15 +171,20 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8150d1a5c6efb646",
+  "active": "8b93d7eaa0187863",
   "lastOpenFiles": [
+    "posts/library/shaka-player/shaka-player tip.md",
+    "posts/library/react-query.md",
+    "posts/web/video player.md",
+    "posts/frontend/performance-tip.md",
+    "posts/web",
+    "posts/library/shaka-player/m3u8.png",
     "posts/javascript/webpack.md",
     "posts/tip/shortcut.md",
     "posts/tip/Pasted image 20240227003348.png",
     "posts/tip/레거시를 더 나은 환경으로 만들기.md",
     "posts/javascript/asynchronous.md",
     "posts/javascript/자바스크립트 데드 코드 제거.md",
-    "posts/library/react-query.md",
     "posts/monitoring/sentry.md",
     "posts/regex/regular-language.md",
     "posts/regex/regex_03.md",
@@ -171,16 +199,12 @@
     "posts/tip/키보드 안쓰기.md",
     "posts/tip/나만의 업무 습관 정리.md",
     "posts/books/object/오브젝트-06.md",
-    "posts/frontend/performance-tip.md",
     "Pasted image 20231101104627.png.md",
-    "posts/01_library/shaka-player/shaka-player tip.md",
-    "posts/01_library/shaka-player/m3u8.png",
     "posts/books/object/오브젝트-00.md",
     "posts/books/object/오브젝트-01.md",
     "posts/books/object/오브젝트-04.md",
-    "posts/books/object/오브젝트-02.md",
     "posts/01_library/shakap-layer/Untitled",
-    "posts/01_library/shaka-player",
-    "posts/01_library"
+    "posts/library/shaka-player",
+    "posts/library"
   ]
 }
