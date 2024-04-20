@@ -4,8 +4,8 @@ date: 2024-04-10
 tags:
   - javascript
   - 플레이어
-created: 
-updated: 2024-04-10
+created: 2024-04-10T11:21:44+09:00
+updated: 2024-04-10T11:21:44+09:00
 ---
 # 영상재생
 

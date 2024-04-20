@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/web/video player.md",
+                "file": "posts/library/shaka-player/shaka-player tip.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -80,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -101,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/web/video player.md",
+                "file": "posts/library/shaka-player/shaka-player tip.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/web/video player.md",
+                "file": "posts/library/shaka-player/shaka-player tip.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/web/video player.md"
+                "file": "posts/library/shaka-player/shaka-player tip.md"
               }
             }
           },
@@ -154,7 +153,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -171,14 +170,15 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8b93d7eaa0187863",
+  "active": "8e7ef2d88f285313",
   "lastOpenFiles": [
     "posts/library/shaka-player/shaka-player tip.md",
+    "posts/library/shaka-player/m3u8.png",
+    "posts/tip/webstorm.md",
     "posts/library/react-query.md",
     "posts/web/video player.md",
     "posts/frontend/performance-tip.md",
     "posts/web",
-    "posts/library/shaka-player/m3u8.png",
     "posts/javascript/webpack.md",
     "posts/tip/shortcut.md",
     "posts/tip/Pasted image 20240227003348.png",
@@ -194,7 +194,6 @@
     "posts/seo/nextjs dynamic sitemap.md",
     "posts/seo/308-Permanent-Redirect.png",
     "posts/my-setting.md",
-    "posts/tip/webstorm.md",
     "posts/tip/chatgpt.md",
     "posts/tip/키보드 안쓰기.md",
     "posts/tip/나만의 업무 습관 정리.md",
@@ -202,7 +201,6 @@
     "Pasted image 20231101104627.png.md",
     "posts/books/object/오브젝트-00.md",
     "posts/books/object/오브젝트-01.md",
-    "posts/books/object/오브젝트-04.md",
     "posts/01_library/shakap-layer/Untitled",
     "posts/library/shaka-player",
     "posts/library"
