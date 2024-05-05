@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/tip/webstorm.md",
+                "file": "posts/error/모노레포에서 서로 다른 react 버전 사용시 에러.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -26,15 +26,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/library/shaka-player/shaka-player tip.md",
+                "file": "posts/frontend/performance-tip.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -63,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:성능최적화",
+                "query": "tag:디깅",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -100,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/library/shaka-player/shaka-player tip.md",
+                "file": "posts/error/모노레포에서 서로 다른 react 버전 사용시 에러.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/library/shaka-player/shaka-player tip.md",
+                "file": "posts/error/모노레포에서 서로 다른 react 버전 사용시 에러.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -140,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/library/shaka-player/shaka-player tip.md"
+                "file": "posts/error/모노레포에서 서로 다른 react 버전 사용시 에러.md"
               }
             }
           },
@@ -170,14 +169,19 @@
       "random-note:Open random note": false
     }
   },
-  "active": "8e7ef2d88f285313",
+  "active": "35743fe8a8595fbf",
   "lastOpenFiles": [
+    "posts/error/Pasted image 20240505170041.png",
+    "posts/error/모노레포에서 서로 다른 react 버전 사용시 에러.md",
+    "posts/error/혼자 알기 아까운 에러 해결 방법 메모.md",
+    "posts/tip/webstorm.md",
+    "posts/frontend/performance-tip.md",
+    "posts/my-setting.md",
+    "posts/error",
     "posts/library/shaka-player/shaka-player tip.md",
     "posts/library/shaka-player/m3u8.png",
-    "posts/tip/webstorm.md",
     "posts/library/react-query.md",
     "posts/web/video player.md",
-    "posts/frontend/performance-tip.md",
     "posts/web",
     "posts/javascript/webpack.md",
     "posts/tip/shortcut.md",
@@ -193,14 +197,11 @@
     "posts/seo/robots.txt.md",
     "posts/seo/nextjs dynamic sitemap.md",
     "posts/seo/308-Permanent-Redirect.png",
-    "posts/my-setting.md",
     "posts/tip/chatgpt.md",
     "posts/tip/키보드 안쓰기.md",
     "posts/tip/나만의 업무 습관 정리.md",
     "posts/books/object/오브젝트-06.md",
     "Pasted image 20231101104627.png.md",
-    "posts/books/object/오브젝트-00.md",
-    "posts/books/object/오브젝트-01.md",
     "posts/01_library/shakap-layer/Untitled",
     "posts/library/shaka-player",
     "posts/library"
