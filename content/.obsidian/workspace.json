@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/error/모노레포에서 서로 다른 react 버전 사용시 에러.md",
+                "file": "Web_API/특정 텍스트를 찾은채로 페이지 이동하기 with 텍스트 프래그먼트.md",
                 "mode": "source",
                 "backlinks": true,
                 "source": false
@@ -62,7 +62,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:디깅",
+                "query": "until",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -83,7 +83,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 247.5,
+    "collapsed": true
   },
   "right": {
     "id": "f49ce100284b3ef6",
@@ -99,7 +100,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/error/모노레포에서 서로 다른 react 버전 사용시 에러.md",
+                "file": "Web_API/특정 텍스트를 찾은채로 페이지 이동하기 with 텍스트 프래그먼트.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +117,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/error/모노레포에서 서로 다른 react 버전 사용시 에러.md",
+                "file": "Web_API/특정 텍스트를 찾은채로 페이지 이동하기 with 텍스트 프래그먼트.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/error/모노레포에서 서로 다른 react 버전 사용시 에러.md"
+                "file": "Web_API/특정 텍스트를 찾은채로 페이지 이동하기 with 텍스트 프래그먼트.md"
               }
             }
           },
@@ -156,7 +157,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -169,10 +171,16 @@
       "random-note:Open random note": false
     }
   },
-  "active": "35743fe8a8595fbf",
+  "active": "8150d1a5c6efb646",
   "lastOpenFiles": [
-    "posts/error/Pasted image 20240505170041.png",
+    "Web_API/Pasted image 20240512175949.png",
+    "Web_API/Pasted image 20240512180100.png",
+    "Web_API/특정 텍스트를 찾은채로 페이지 이동하기 with 텍스트 프래그먼트.md",
+    "Web_API/Blob.md",
+    "Web_API/DOMMatrixReadOnly.md",
+    "posts/monitoring/sentry.md",
     "posts/error/모노레포에서 서로 다른 react 버전 사용시 에러.md",
+    "posts/error/Pasted image 20240505170041.png",
     "posts/error/혼자 알기 아까운 에러 해결 방법 메모.md",
     "posts/tip/webstorm.md",
     "posts/frontend/performance-tip.md",
@@ -189,7 +197,6 @@
     "posts/tip/레거시를 더 나은 환경으로 만들기.md",
     "posts/javascript/asynchronous.md",
     "posts/javascript/자바스크립트 데드 코드 제거.md",
-    "posts/monitoring/sentry.md",
     "posts/regex/regular-language.md",
     "posts/regex/regex_03.md",
     "posts/regex/regex_01.md",
@@ -199,9 +206,6 @@
     "posts/seo/308-Permanent-Redirect.png",
     "posts/tip/chatgpt.md",
     "posts/tip/키보드 안쓰기.md",
-    "posts/tip/나만의 업무 습관 정리.md",
-    "posts/books/object/오브젝트-06.md",
-    "Pasted image 20231101104627.png.md",
     "posts/01_library/shakap-layer/Untitled",
     "posts/library/shaka-player",
     "posts/library"
