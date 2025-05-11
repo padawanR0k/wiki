@@ -1,17 +1,15 @@
 {
-  "extends": [
-    "airbnb",
-    "eslint:recommended",
-    "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:@typescript-eslint/recommended"
-  ],
-  "rules": {
-    "no-anonymous-exports-page-templates": "warn",
-    "limited-exports-page-templates": "warn"
-  },
-  "ignorePatterns": ["gatsby-config.js"],
-  "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "@typescript-eslint"
-  ],
+	"extends": [
+		"airbnb",
+		"eslint:recommended",
+		"plugin:@typescript-eslint/eslint-recommended",
+		"plugin:@typescript-eslint/recommended"
+	],
+	"rules": {
+		"no-anonymous-exports-page-templates": "warn",
+		"limited-exports-page-templates": "warn"
+	},
+	"ignorePatterns": ["gatsby-config.js"],
+	"parser": "@typescript-eslint/parser",
+	"plugins": ["@typescript-eslint"]
 }

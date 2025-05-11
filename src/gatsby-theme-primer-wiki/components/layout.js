@@ -1,9 +1,14 @@
 import { Box } from "@primer/components";
-import React from "react";
 import Header from "gatsby-theme-primer-wiki/src/components/header";
 import Sidebar from "gatsby-theme-primer-wiki/src/components/sidebar";
-import "../styles/global.css";
 import { getSidebarItems } from "gatsby-theme-primer-wiki/src/utils/sidebar-items";
+import Clarity from '@microsoft/clarity';
+import "../styles/global.css";
+
+if (process.env.NODE_ENV === 'production') {
+  const projectId = "rhs71m1jem";
+  Clarity.init(projectId);
+}
 
 function Layout({ children, location, pageContext }) {
   const sidebarItems = pageContext.sidebarItems;
