@@ -34,10 +34,13 @@ module.exports = {
       resolve: "gatsby-theme-primer-wiki",
       options: {
         nav: [
-
           {
             title: "Github",
             url: "https://github.com/padawanR0k",
+          },
+          {
+            title: "Blog",
+            url: "https://blog.r0k.wiki",
           },
         ],
         editUrl: "https://github.com/padawanR0k/wiki/blob/master/content/",
