@@ -1,4 +1,10 @@
 {
-  "baseFontSize": 16,
-  "accentColor": ""
+  "accentColor": "",
+  "baseFontSize": 18,
+  "cssTheme": "Border",
+  "baseFontSizeAction": false,
+  "textFontFamily": "Pretendard",
+  "theme": "obsidian",
+  "interfaceFontFamily": "Apple Braille",
+  "monospaceFontFamily": "0xProto"
 }

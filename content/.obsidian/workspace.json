@@ -1,19 +1,20 @@
 {
   "main": {
-    "id": "cb0dc3527d709e8c",
+    "id": "fd02bfe33c06d49b",
     "type": "split",
     "children": [
       {
-        "id": "9c3268638f285a8d",
+        "id": "16b770d6957f39ad",
         "type": "tabs",
         "children": [
           {
-            "id": "8150d1a5c6efb646",
+            "id": "c559c17612064649",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/monitoring/sentry.md",
+                "file": "050 개발지식/SEO 실전.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -27,49 +28,39 @@
                   "unlinkedCollapsed": true
                 }
               },
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "sentry"
+              "title": "SEO 실전"
             }
           },
           {
-            "id": "8e7ef2d88f285313",
+            "id": "8a7260f6b26e224d",
             "type": "leaf",
+            "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "posts/frontend/performance-tip.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
+              "pinned": true,
               "icon": "lucide-file",
-              "title": "performance-tip"
+              "title": "New tab"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "d551400fe3463476",
+    "id": "867ddec4b39c4b0e",
     "type": "split",
     "children": [
       {
-        "id": "f76571b85925556c",
+        "id": "14946e6015bd4c0d",
         "type": "tabs",
         "children": [
           {
-            "id": "35743fe8a8595fbf",
+            "id": "4aeab653cc5fe921",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -82,24 +73,34 @@
             }
           },
           {
-            "id": "8b93d7eaa0187863",
+            "id": "89f1a92826752c6f",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "until",
+                "query": "devops",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": true,
+                "collapseAll": false,
                 "extraContext": false,
-                "sortOrder": "alphabetical"
+                "sortOrder": "byModifiedTime"
               },
               "icon": "lucide-search",
               "title": "Search"
             }
           },
           {
-            "id": "3b75fdacfc62a94e",
+            "id": "6536b01a4f92c5ac",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "64d62ae8076702cb",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -107,150 +108,196 @@
               "icon": "lucide-bookmark",
               "title": "Bookmarks"
             }
+          },
+          {
+            "id": "7041edba5fe4b82a",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {},
+              "icon": "clock",
+              "title": "Recent Files"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 247.5
+    "width": 233.5
   },
   "right": {
-    "id": "f49ce100284b3ef6",
+    "id": "d1f38cc60b37401e",
     "type": "split",
     "children": [
       {
-        "id": "97afac818c379864",
+        "id": "1c867867346b4c65",
         "type": "tabs",
         "children": [
           {
-            "id": "5830a4a5579fc7f1",
+            "id": "1532828fd31298e2",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "posts/monitoring/sentry.md",
+                "file": "journals/2024-11-21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for sentry"
+              "title": "Backlinks for 2024-11-21"
             }
           },
           {
-            "id": "0e93143cad3b3515",
+            "id": "fdebd575f69ec6a3",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "posts/monitoring/sentry.md",
+                "file": "journals/2024-11-21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from sentry"
+              "title": "Outgoing links from 2024-11-21"
             }
           },
           {
-            "id": "7d166921532da18e",
+            "id": "6c2eefeca776bc5d",
             "type": "leaf",
             "state": {
               "type": "tag",
               "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "sortOrder": "alphabetical",
+                "useHierarchy": false
               },
               "icon": "lucide-tags",
               "title": "Tags"
             }
           },
           {
-            "id": "d483293e8bd07d1a",
+            "id": "7c0b64a7ee03ddb6",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "2c864ce753bf3181",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
+            }
+          },
+          {
+            "id": "273b2dd99713970d",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "posts/monitoring/sentry.md",
+                "file": "040 인프랩/다중기기 접속제한.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of sentry"
+              "title": "Outline of 다중기기 접속제한"
             }
           },
           {
-            "id": "a62883818d1f6d07",
+            "id": "3967c62283d3c850",
             "type": "leaf",
             "state": {
-              "type": "metatable-sidebar-view",
+              "type": "smtcmp-chat-view",
               "state": {},
-              "icon": "bracket-glyph",
-              "title": "Metatable Sidebar"
+              "icon": "message-square",
+              "title": "Smart composer chat"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 286.5
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-metatable:Metatable": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "markdown-importer:Open format converter": false,
-      "random-note:Open random note": false
+      "random-note:Open random note": false,
+      "obsidian-book-search-plugin:Create new book note": false,
+      "templater-obsidian:Templater": false,
+      "omnisearch:Omnisearch": false,
+      "smart-composer:Open smart composer": false
     }
   },
-  "active": "8150d1a5c6efb646",
+  "active": "8a7260f6b26e224d",
   "lastOpenFiles": [
-    "Web_API/특정 텍스트를 찾은채로 페이지 이동하기 with 텍스트 프래그먼트.md",
-    "Web_API/Pasted image 20240512175949.png",
-    "Web_API/Pasted image 20240512180100.png",
-    "Web_API/Blob.md",
-    "Web_API/DOMMatrixReadOnly.md",
-    "posts/monitoring/sentry.md",
-    "posts/error/모노레포에서 서로 다른 react 버전 사용시 에러.md",
-    "posts/error/Pasted image 20240505170041.png",
-    "posts/error/혼자 알기 아까운 에러 해결 방법 메모.md",
-    "posts/tip/webstorm.md",
-    "posts/frontend/performance-tip.md",
-    "posts/my-setting.md",
-    "posts/error",
-    "posts/library/shaka-player/shaka-player tip.md",
-    "posts/library/shaka-player/m3u8.png",
-    "posts/library/react-query.md",
-    "posts/web/video player.md",
-    "posts/web",
-    "posts/javascript/webpack.md",
-    "posts/tip/shortcut.md",
-    "posts/tip/Pasted image 20240227003348.png",
-    "posts/tip/레거시를 더 나은 환경으로 만들기.md",
-    "posts/javascript/asynchronous.md",
-    "posts/javascript/자바스크립트 데드 코드 제거.md",
-    "posts/regex/regular-language.md",
-    "posts/regex/regex_03.md",
-    "posts/regex/regex_01.md",
-    "posts/regex/regex_02.md",
-    "posts/seo/robots.txt.md",
-    "posts/seo/nextjs dynamic sitemap.md",
-    "posts/seo/308-Permanent-Redirect.png",
-    "posts/tip/chatgpt.md",
-    "posts/tip/키보드 안쓰기.md",
-    "posts/01_library/shakap-layer/Untitled",
-    "posts/library/shaka-player",
-    "posts/library"
+    "Untitled.canvas",
+    "Untitled.md",
+    "040 인프랩/인프랩 - 목차.md",
+    "040 인프랩/다중기기 접속제한.md",
+    "journals/2025-07-16.md",
+    "040 인프랩/추가 개선 작업 기록.md",
+    "journals/2025-08-13.md",
+    "040 인프랩/제품 모니터링/에러 모니터링.md",
+    "040 인프랩/제품 모니터링/인프런, 랠릿 모니터링.md",
+    "journals/2025-08-12.md",
+    "040 인프랩/강의실 마인드맵.canvas",
+    "040 인프랩/랠릿.md",
+    "040 인프랩/강의실.md",
+    "타인 이슈해결 기록.md",
+    "broken links output.md",
+    "000 임시메모/이력서.md",
+    "000 임시메모/일 머리.md",
+    "000 임시메모/오늘의집 ux.m4a",
+    "000 임시메모/라인 디자이너 발표.m4a",
+    "journals/2025-08-11.md",
+    "images/Pasted image 20250809164819.png",
+    "images/Pasted image 20250809164804.png",
+    "journals/2025-08-09.md",
+    "050 개발지식/SEO 실전.md",
+    "050 개발지식/052 최적화/빌드 최적화.md",
+    "journals/토스 컨퍼런스 2025.md",
+    "images/Pasted image 20250802174749.png",
+    "040 인프랩/제품 모니터링",
+    "images/Pasted image 20250725112038.png",
+    "journals/2025-07-24.md",
+    "001 기타/플레이어 CS 대응.md",
+    "journals/2025-05-16.md",
+    "journals/2025-07-11.md",
+    "journals/2023-04-17.md",
+    "images/CleanShot 2025-06-12 at 13.37.29@2x.png",
+    "000 임시메모/쿠팡피엠.txt",
+    "000 임시메모/쿠팡피엠.m4a",
+    "000 임시메모/쿠팡피엠 메모_작성시간 포함.txt",
+    "000 임시메모/오늘의집 ux.txt",
+    "000 임시메모/오늘의집 ux 메모_작성시간 포함.txt",
+    "000 임시메모/라인 디자이너 발표.txt",
+    "000 임시메모/라인디자이너_메모.txt",
+    "images/CleanShot 2025-03-12 at 19.39.05@2x.png",
+    "images/CleanShot 2025-02-27 at 13.18.51 1.png",
+    "images/CleanShot 2025-02-27 at 13.18.51.png",
+    "images/65675.png",
+    "images/81203.png"
   ]
 }

@@ -1,0 +1,6 @@
+{
+  "autorun": true,
+  "folder": "journals",
+  "format": "YYYY-MM-DD",
+  "template": "Template/daily"
+}
