@@ -44,9 +44,33 @@
               "icon": "lucide-file",
               "title": "New tab"
             }
+          },
+          {
+            "id": "4111cf796fc5300e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "posts/frontend/performance-tip.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "performance-tip"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -250,8 +274,20 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "8a7260f6b26e224d",
+  "active": "4111cf796fc5300e",
   "lastOpenFiles": [
+    "posts/monitoring/sentry.md",
+    "posts/regex/regex_01.md",
+    "posts/web/video player.md",
+    "posts/tip/webstorm.md",
+    "posts/tip/shortcut.md",
+    "posts/tip/Pasted image 20240227003348.png",
+    "posts/tip/키보드 안쓰기.md",
+    "posts/tip/chatgpt.md",
+    "posts/tip/레거시를 더 나은 환경으로 만들기.md",
+    "posts/tip/나만의 업무 습관 정리.md",
+    "posts/my-setting.md",
+    "posts/frontend/performance-tip.md",
     "Untitled.canvas",
     "Untitled.md",
     "040 인프랩/인프랩 - 목차.md",
@@ -271,21 +307,11 @@
     "000 임시메모/일 머리.md",
     "000 임시메모/오늘의집 ux.m4a",
     "000 임시메모/라인 디자이너 발표.m4a",
-    "journals/2025-08-11.md",
     "images/Pasted image 20250809164819.png",
     "images/Pasted image 20250809164804.png",
-    "journals/2025-08-09.md",
-    "050 개발지식/SEO 실전.md",
-    "050 개발지식/052 최적화/빌드 최적화.md",
-    "journals/토스 컨퍼런스 2025.md",
     "images/Pasted image 20250802174749.png",
     "040 인프랩/제품 모니터링",
     "images/Pasted image 20250725112038.png",
-    "journals/2025-07-24.md",
-    "001 기타/플레이어 CS 대응.md",
-    "journals/2025-05-16.md",
-    "journals/2025-07-11.md",
-    "journals/2023-04-17.md",
     "images/CleanShot 2025-06-12 at 13.37.29@2x.png",
     "000 임시메모/쿠팡피엠.txt",
     "000 임시메모/쿠팡피엠.m4a",
@@ -297,7 +323,6 @@
     "images/CleanShot 2025-03-12 at 19.39.05@2x.png",
     "images/CleanShot 2025-02-27 at 13.18.51 1.png",
     "images/CleanShot 2025-02-27 at 13.18.51.png",
-    "images/65675.png",
-    "images/81203.png"
+    "images/65675.png"
   ]
 }
