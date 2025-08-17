@@ -12,32 +12,6 @@
             "type": "leaf",
             "pinned": true,
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "050 개발지식/SEO 실전.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "pinned": true,
-              "icon": "lucide-file",
-              "title": "SEO 실전"
-            }
-          },
-          {
-            "id": "8a7260f6b26e224d",
-            "type": "leaf",
-            "pinned": true,
-            "state": {
               "type": "empty",
               "state": {},
               "pinned": true,
@@ -46,12 +20,12 @@
             }
           },
           {
-            "id": "4111cf796fc5300e",
+            "id": "468ce6721d8d10e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/frontend/performance-tip.md",
+                "file": "posts/monitoring/datadog RUM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -66,11 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "performance-tip"
+              "title": "datadog RUM"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -102,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "devops",
+                "query": "jsx",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -143,7 +117,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -274,9 +249,20 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "4111cf796fc5300e",
+  "active": "468ce6721d8d10e5",
   "lastOpenFiles": [
+    "posts/frontend/performance-tip.md",
+    "posts/monitoring/datadog RUM.md",
+    "images/CleanShot 2025-08-17 at 16.22.45@2x.png",
+    "images/CleanShot 2025-08-17 at 16.20.32@2x.png",
+    "images/CleanShot 2025-08-17 at 16.16.05@2x.png",
+    "images/CleanShot 2025-08-17 at 16.15.02@2x.png",
+    "images/CleanShot 2025-08-17 at 16.10.19@2x.png",
+    "images/CleanShot 2025-08-17 at 16.03.24@2x.png",
+    "images/Pasted image 20250817142735.png",
+    "images",
     "posts/monitoring/sentry.md",
+    "posts/monitoring/Untitled.md",
     "posts/regex/regex_01.md",
     "posts/web/video player.md",
     "posts/tip/webstorm.md",
@@ -287,7 +273,6 @@
     "posts/tip/레거시를 더 나은 환경으로 만들기.md",
     "posts/tip/나만의 업무 습관 정리.md",
     "posts/my-setting.md",
-    "posts/frontend/performance-tip.md",
     "Untitled.canvas",
     "Untitled.md",
     "040 인프랩/인프랩 - 목차.md",
@@ -302,27 +287,16 @@
     "040 인프랩/랠릿.md",
     "040 인프랩/강의실.md",
     "타인 이슈해결 기록.md",
-    "broken links output.md",
-    "000 임시메모/이력서.md",
-    "000 임시메모/일 머리.md",
     "000 임시메모/오늘의집 ux.m4a",
     "000 임시메모/라인 디자이너 발표.m4a",
     "images/Pasted image 20250809164819.png",
     "images/Pasted image 20250809164804.png",
-    "images/Pasted image 20250802174749.png",
     "040 인프랩/제품 모니터링",
-    "images/Pasted image 20250725112038.png",
-    "images/CleanShot 2025-06-12 at 13.37.29@2x.png",
     "000 임시메모/쿠팡피엠.txt",
     "000 임시메모/쿠팡피엠.m4a",
     "000 임시메모/쿠팡피엠 메모_작성시간 포함.txt",
     "000 임시메모/오늘의집 ux.txt",
     "000 임시메모/오늘의집 ux 메모_작성시간 포함.txt",
-    "000 임시메모/라인 디자이너 발표.txt",
-    "000 임시메모/라인디자이너_메모.txt",
-    "images/CleanShot 2025-03-12 at 19.39.05@2x.png",
-    "images/CleanShot 2025-02-27 at 13.18.51 1.png",
-    "images/CleanShot 2025-02-27 at 13.18.51.png",
-    "images/65675.png"
+    "000 임시메모/라인 디자이너 발표.txt"
   ]
 }
