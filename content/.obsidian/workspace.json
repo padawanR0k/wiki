@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/my-setting.md",
+                "file": "posts/tip/git.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +40,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "my-setting"
+              "title": "git"
             }
           }
         ],
@@ -76,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "MCP",
+                "query": "git ",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +117,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -249,10 +250,17 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "f75cded7c5402fb5",
+  "active": "89f1a92826752c6f",
   "lastOpenFiles": [
-    "images/CleanShot 2025-10-04 at 15.38.29@2x.png",
+    "posts/tip/webstorm.md",
+    "posts/tip/git.md",
+    "posts/tip/shortcut.md",
+    "posts/tip/키보드 안쓰기.md",
+    "posts/tip/Pasted image 20240227003348.png",
+    "posts/tip/나만의 업무 습관 정리.md",
+    "posts/tip/레거시를 더 나은 환경으로 만들기.md",
     "posts/my-setting.md",
+    "images/CleanShot 2025-10-04 at 15.38.29@2x.png",
     "posts/monitoring/datadog RUM.md",
     "images/CleanShot 2025-08-17 at 16.10.19@2x.png",
     "images/CleanShot 2025-08-17 at 16.16.05@2x.png",
@@ -269,13 +277,7 @@
     "posts/monitoring/Untitled.md",
     "posts/regex/regex_01.md",
     "posts/web/video player.md",
-    "posts/tip/webstorm.md",
-    "posts/tip/shortcut.md",
-    "posts/tip/Pasted image 20240227003348.png",
-    "posts/tip/키보드 안쓰기.md",
     "posts/tip/chatgpt.md",
-    "posts/tip/레거시를 더 나은 환경으로 만들기.md",
-    "posts/tip/나만의 업무 습관 정리.md",
     "Untitled.canvas",
     "Untitled.md",
     "040 인프랩/인프랩 - 목차.md",
@@ -292,7 +294,6 @@
     "000 임시메모/오늘의집 ux.m4a",
     "000 임시메모/라인 디자이너 발표.m4a",
     "images/Pasted image 20250809164819.png",
-    "images/Pasted image 20250809164804.png",
     "040 인프랩/제품 모니터링",
     "000 임시메모/쿠팡피엠.txt",
     "000 임시메모/쿠팡피엠.m4a",
