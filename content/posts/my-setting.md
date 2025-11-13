@@ -1,7 +1,7 @@
 ---
 title: 개발 생산성을 위한 내 개발 환경 세팅 기록
 date: 2022-05-31
-updated: 2022-12-18T15:40:45+09:00
+updated: 2025-11-13T15:40:45+09:00
 tags:
   - my-setting
 created: 2022-12-18T15:40:45+09:00
@@ -19,7 +19,7 @@ created: 2022-12-18T15:40:45+09:00
 		- 모니터링툴, 어드민에 특정유저 ID를 검색할 때 유용함.
 - 서비스 검색
 	- 컨플루언스, 지라, 슬랙, 피그마 등 업무용 서비스 내부 파일 검색가능
-## [Atuin - Shell History & Executable Runbooks](https://atuin.sh/) 
+## [Atuin - Shell History & Executable Runbooks](https://atuin.sh/)
 내가 실행한 명령어(history)를 검색하는 도구 (분석도 가능)
 
 - 다른기기에 history 옮기기
@@ -50,8 +50,50 @@ croc [특정코드 입력]
 - CLI, 소스트리, 깃크라켄 써보다가 정착한 Git 도구. 근데 터미널을 곁들인
 - 빠름, 키보드만 써도됨
 
+### lazygit에서 Jira 티켓 여는법
+
+#### 1) 단축키 등록
+
+- 주의점
+  * 사용 가능: `<c-o>`, `<a-o>` 같은 CTRL/ALT 조합
+  * `customCommands.key` 는 **cmd(⌘)** 미지원
+  * `cmd+o` 는 lazygit 기본키(openFile)로 예약되어 충돌 발생
+
+#### 2) Jira 티켓 자동 추출 정규식
+
+* 특정 prefix 없이 **아무 텍스트-숫자** 패턴 허용
+* 사용 정규식:
+
+  ```
+  [A-Za-z][A-Za-z0-9]*-[0-9]+
+  ```
+
+  * 영문 시작 → 프로젝트 키 충돌 최소화
+  * 예: `INFE-123`, `TASK-9`, `ABC1-999`
+
+#### 3) 최종 custom command 예시
+
+```yaml
+customCommands:
+  - key: "<c-o>"
+    context: "localBranches"
+    description: "Open Jira ticket"
+    command: >
+      bash -c 'ticket=$(echo {{.SelectedLocalBranch.Name}} |
+      grep -oE "[A-Za-z][A-Za-z0-9]*-[0-9]+");
+      if [ -n "$ticket" ]; then open "https://{{회사주소}}.atlassian.net/browse/$ticket"; fi'
+    showOutput: false
+```
+
+#### 4) config.yml 위치
+
+* macOS: `~/Library/Application Support/lazygit/config.yml`
+* Linux: `~/.config/lazygit/config.yml`
+* Windows: `%LOCALAPPDATA%\lazygit\config.yml`
+
+
 
 
 ## [Hammerspoon](https://www.hammerspoon.org/)
 - lua 를 사용해 os 위에서 동작하는 스크립트 작성
-	- 키보드 한/영 상태일 떄 특정 ui를 바꾸기, 지금 브라우저 URL의 일부분 바꾸기 같은것들을 단축키로 만들 수 있다. (로컬, 개발서버 왔다갔다 할 때 유용함) 
+	- 키보드 한/영 상태일 떄 특정 ui를 바꾸기, 지금 브라우저 URL의 일부분 바꾸기 같은것들을 단축키로 만들 수 있다. (로컬, 개발서버 왔다갔다 할 때 유용함)
