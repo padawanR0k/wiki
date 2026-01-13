@@ -42,9 +42,21 @@
               "icon": "lucide-file",
               "title": "git"
             }
+          },
+          {
+            "id": "9b6af077362f21ae",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -249,7 +261,7 @@
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "4aeab653cc5fe921",
+  "active": "9b6af077362f21ae",
   "lastOpenFiles": [
     "posts/tip/webstorm.md",
     "posts/tip/git.md",
