@@ -47,12 +47,24 @@
             "id": "9b6af077362f21ae",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.3"
+                "file": "posts/tip/shortcut.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "icon": "lucide-file",
+              "title": "shortcut"
             }
           }
         ],
@@ -263,10 +275,10 @@
   },
   "active": "9b6af077362f21ae",
   "lastOpenFiles": [
+    "posts/tip/키보드 안쓰기.md",
     "posts/tip/webstorm.md",
     "posts/tip/git.md",
     "posts/tip/shortcut.md",
-    "posts/tip/키보드 안쓰기.md",
     "posts/tip/Pasted image 20240227003348.png",
     "posts/tip/나만의 업무 습관 정리.md",
     "posts/tip/레거시를 더 나은 환경으로 만들기.md",
