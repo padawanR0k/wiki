@@ -97,3 +97,95 @@ customCommands:
 ## [Hammerspoon](https://www.hammerspoon.org/)
 - lua 를 사용해 os 위에서 동작하는 스크립트 작성
 	- 키보드 한/영 상태일 떄 특정 ui를 바꾸기, 지금 브라우저 URL의 일부분 바꾸기 같은것들을 단축키로 만들 수 있다. (로컬, 개발서버 왔다갔다 할 때 유용함)
+
+## chezmoi를 통한 dotfile 관리
+
+새 머신을 세팅하거나 OS를 밀 때마다 dotfile을 처음부터 다시 만드는 게 번거로웠다. 머신별로 설정이 달라야 하는 경우나 비밀 값 관리까지 한 곳에서 해결하고 싶어서 chezmoi로 정착했다.
+
+### [age](https://github.com/FiloSottile/age)
+
+공개키로 암호화하고, 비밀키로 복호화하는 파일 암호화 도구.
+
+### 키 쌍
+
+`age-keygen`으로 두 개의 키를 생성한다.
+- **공개키 (recipient)**: `age12axqydw2l...` → 암호화할 때 사용, 공개해도 안전
+- **비밀키 (identity)**: `AGE-SECRET-KEY-...` → 복호화할 때 사용, 절대 비공개
+
+> 현재 비밀키는 `~/.config/chezmoi/key.txt`에 저장
+
+### 암호화/복호화 흐름
+
+```
+평문 파일 → [공개키로 암호화] → .age 파일 (GitHub에 올라감)
+.age 파일 → [비밀키로 복호화] → 평문 파일
+```
+
+### chezmoi와의 연동
+
+**암호화 (chezmoi add --encrypt)**
+1. chezmoi가 `~/.zshrc.secrets`를 읽음
+2. `chezmoi.toml`의 recipient (공개키)로 age 암호화
+3. `encrypted_dot_zshrc.secrets.age`로 저장 → git에 커밋됨
+
+**복호화 (chezmoi apply)**
+1. `.age` 파일을 읽음
+2. identity (비밀키)로 복호화
+3. `~/.zshrc.secrets`에 평문으로 복원
+
+### 왜 안전한가
+
+- `.age` 파일이 GitHub에 노출되어도 비밀키 없이는 복호화 불가
+- 비밀키는 로컬(`key.txt`)에만 존재, `.gitignore`로 커밋 차단
+- RSA가 아닌 X25519 (타원곡선) 기반이라 키가 짧고 빠름
+
+## [chezmoi](https://www.chezmoi.io/)
+
+홈 디렉토리의 dotfile들을 별도 소스 디렉토리에서 git으로 버전 관리하고, `apply`로 동기화하는 도구.
+
+### 핵심 구조
+
+```
+~/code/dotfiles/ (소스, git 관리)     ~/ (실제 적용 위치)
+├── dot_zshrc.tmpl          ──apply──→  .zshrc
+├── dot_gitconfig.tmpl      ──apply──→  .gitconfig
+├── encrypted_*.age         ──apply──→  복호화된 평문 파일
+└── run_onchange_*.sh.tmpl  ──apply──→  (변경 시 스크립트 실행)
+```
+
+### 파일명 컨벤션
+
+chezmoi는 소스 디렉토리의 **파일명 접두사**로 동작을 결정함:
+
+| 접두사 | 의미 | 예시 |
+|--------|------|------|
+| `dot_` | `.`으로 변환 | `dot_zshrc` → `.zshrc` |
+| `private_` | 권한 0600 적용 | `private_dot_ssh/` → `.ssh/` |
+| `encrypted_` | age로 복호화 후 배치 | `encrypted_dot_zshrc.secrets.age` |
+| `.tmpl` 접미사 | Go 템플릿 렌더링 | `{{ .chezmoi.homeDir }}` → `/Users/yuroklee` |
+| `run_onchange_` | 내용 변경 시 스크립트 실행 | brew bundle 자동화 |
+
+### 주요 워크플로우
+
+```bash
+# 파일 수정 → 소스에 반영
+vim ~/.zshrc
+chezmoi re-add ~/.zshrc    # 소스 디렉토리에 변경사항 덮어쓰기
+
+# 소스 수정 → 홈에 반영
+chezmoi edit ~/.zshrc      # 소스 파일을 직접 편집
+chezmoi diff               # 적용 전 미리보기
+chezmoi apply              # 홈 디렉토리에 적용
+
+# 새 머신에서 한 방에 세팅
+chezmoi init --apply <github-repo>
+```
+
+### 일반 symlink 방식과의 차이
+
+| | symlink (stow 등) | chezmoi |
+|--|---|---|
+| 방식 | 심볼릭 링크 | 파일 복사 |
+| 템플릿 | 불가 | `{{ .chezmoi.homeDir }}` 등 |
+| 암호화 | 별도 도구 필요 | age 내장 지원 |
+| 머신별 분기 | 수동 | `.tmpl`에서 OS/호스트별 조건 분기 |

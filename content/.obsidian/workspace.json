@@ -16,7 +16,7 @@
               "state": {},
               "pinned": true,
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "새 탭"
             }
           },
           {
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "posts/tip/shortcut.md",
+                "file": "posts/my-setting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "shortcut"
+              "title": "my-setting"
             }
           }
         ],
@@ -91,7 +91,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "파일 탐색기"
             }
           },
           {
@@ -259,26 +259,26 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "random-note:Open random note": false,
+      "switcher:빠른 전환기 열기": false,
+      "graph:그래프 뷰 열기": false,
+      "canvas:새 캔버스 만들기": false,
+      "daily-notes:오늘의 일일 노트 열기": false,
+      "templates:템플릿 삽입": false,
+      "command-palette:명령어 팔레트 열기": false,
+      "random-note:무작위 노트 열기": false,
+      "bases:새 베이스 생성하기": false,
       "obsidian-book-search-plugin:Create new book note": false,
       "templater-obsidian:Templater": false,
       "omnisearch:Omnisearch": false,
       "smart-composer:Open smart composer": false
     }
   },
-  "active": "9b6af077362f21ae",
+  "active": "4aeab653cc5fe921",
   "lastOpenFiles": [
+    "posts/tip/shortcut.md",
     "posts/tip/키보드 안쓰기.md",
     "posts/tip/webstorm.md",
     "posts/tip/git.md",
-    "posts/tip/shortcut.md",
     "posts/tip/Pasted image 20240227003348.png",
     "posts/tip/나만의 업무 습관 정리.md",
     "posts/tip/레거시를 더 나은 환경으로 만들기.md",
