@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://r0k.wiki/sitemap/sitemap-index.xml
+Host: https://r0k.wiki
