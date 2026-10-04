@@ -32,3 +32,33 @@ jobs:
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
           deploy-branch: gh-pages
+
+  # 위 빌드가 gh-pages 브랜치에 올린 결과물을 그대로 Cloudflare Pages에도 올린다.
+  # 빌드는 건드리지 않으므로 URL 구조가 같고, 컷오버 전에는 *.pages.dev에서만 확인된다.
+  deploy-cloudflare:
+    needs: build
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: site
+
+      - name: Remove git metadata from upload directory
+        run: rm -rf site/.git
+
+      - name: Create Pages project (no-op if it already exists)
+        uses: cloudflare/wrangler-action@v3
+        continue-on-error: true
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages project create r0k-wiki --production-branch=master
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: pages deploy site --project-name=r0k-wiki --branch=master
